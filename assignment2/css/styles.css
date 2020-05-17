@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h1 {
@@ -23,7 +23,6 @@ h1 {
 .sectionbox {
   border: 1px solid black;
   background-color: gainsboro;
-  padding: 10px;
   font-family: Helvetica;
   float: left;
   width: 100%;
@@ -31,7 +30,7 @@ h1 {
 
 .titlebox {
   border: 1px solid black;
-  margin: 5px;
+  margin: -1px;
   padding: 10px;
   float: right;
   width: 25%;
@@ -41,6 +40,8 @@ h1 {
 
 .textbox {
   clear: both;
+  padding: 10px;
+  text-align: justify;
 }
 
 #t1 {
